@@ -191,3 +191,49 @@ a{
 }
 /* Caracteristicas */
 
+
+/* Contacto */
+.contact-section{
+    width: 100%;
+    height: auto;
+    background-color: #fff389;
+}
+
+.contact{
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+
+}
+.contact__info{
+    margin-right: 16rem;
+}
+.contact__info h3{
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+.contact__info li{
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.contact__info img{
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contact__form > div{
+    display: flex;
+    gap: 2rem;
+}
+/* Contacto */
